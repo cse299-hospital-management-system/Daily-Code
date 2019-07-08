@@ -1,0 +1,153 @@
+*  Contact Form  ============================================================================= */
+
+
+.col{
+	display: block;
+	float:left;
+}
+.col:first-child{
+	margin-left:0;
+}	
+.span_2_of_3 {
+	width: 67.1%;
+	padding: 0 0 1.5% 0;
+}
+
+.span_2_of_3  h2,
+.span_1_of_3  h2 {
+	color: rgb(139, 139, 139);
+	margin-top: 0;
+	font-size: 2em;
+	font-family: 'Ropa Sans', sans-serif;
+	font-weight: normal;
+	letter-spacing: -1px;
+	margin-top: 12px;
+}
+.contact-form{
+	position:relative;
+	padding-bottom:30px;
+    padding-left: 200px;
+}
+.contact-form div{
+	padding:5px 0;
+}
+.contact-form span{
+	display:block;
+	font-size:1em;
+	color: rgb(139, 139, 139);
+	padding-bottom:5px;
+	font-family: 'Ropa Sans', sans-serif;
+}
+.contact-form input[type="text"],input[type="email"],.contact-form textarea{
+		    padding:8px;
+			display:block;
+			width:98%;
+			background:#fcfcfc;
+			border: none;
+			outline:none;
+			color:rgb(139, 139, 139);
+			font-size:0.8125em;
+			font-family:Arial, Helvetica, sans-serif;
+			box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+			-webkit-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+			-moz-box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
+			-o-box-shadow:inset 0px 0px 3px rgb(199, 199, 199);
+			-webkit-appearance:none;
+}
+.contact-form textarea{
+		resize:none;
+		height:120px;		
+}
+.contact-form input[type="submit"]{
+	font-size: 1em;
+	font-family: 'Ropa Sans', sans-serif;
+	background: #3285d1;
+	border: #fff 1px solid;
+	border-radius: 6px;
+	box-shadow: 0px 0px 3px rgb(207, 206, 206);
+	text-transform: uppercase;
+	color: #fff;
+	padding: 15px 20px;
+	transition: 0.5s ease;
+	float: left;
+	margin-top: 8px;
+	cursor:pointer;
+}
+.contact-form input[type="submit"]:hover{
+	color: #000;
+}
+.contact-form input[type="submit"]:active{
+	background-color:#000;  
+}
+
+.company_address p{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0.2em 0;
+	font-size: 0.8125em;
+	color: rgb(155, 155, 155);
+	line-height: 1.5em;
+}
+.company_address p span{
+	text-decoration:underline;
+	color:#333;
+	cursor:pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;
+}
+.cl{
+    padding-top: 10px;
+}
+
+/*  Sucess Story  ============================================================================= */
+.story{
+    text-align: center;
+    color: royalblue;
+    font-size: 1cm;
+}
+.story_details{
+    padding-left: 10%;;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+/*  Services  ================================================================================== */
+.services{
+    text-align: center;
+    color: royalblue;
+    font-size: 1cm;
+}
+.information{
+    padding-left: 5%;
+    font-size: 0.7cm;
+    color: blueviolet;
+}
+.in-de{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.regi{
+    padding-left: 5%;
+    font-size: 0.7cm;
+    color: blueviolet;
+}
+.regi-desk{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.report{
+     padding-left: 5%;
+    font-size: 0.7cm;
+    color: blueviolet;
+}
+.rep-del{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.ips{
+    padding-left: 5%;
+    font-size: 0.7cm;
+    color: blueviolet;
+}
+.ips-det{
+    padding-left: 5%;
+    padding-right: 5%;
+}
