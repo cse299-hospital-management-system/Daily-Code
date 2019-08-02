@@ -1,0 +1,39 @@
+CREATE TABLE contact(
+    Name VARCHAR(30),
+    email VARCHAR(30),
+    Mobile_no INT (11) NOT NULL,
+    Description VARCHAR(200),
+    PRIMARY KEY (Mobile_no)
+    );
+
+CREATE TABLE doctor_sign_up(
+    Email VARCHAR (30),
+    Password VARCHAR(30),
+    Repeat_Password VARCHAR(30),
+    First_Name VARCHAR (30),
+    Last_name VARCHAR(30),
+    Gender VARCHAR(30),
+    Designation VARCHAR(30),
+    Expert VARCHAR(30)
+    
+    );
+
+CREATE TABLE patient_sign_up(
+    Email VARCHAR (30),
+    Password VARCHAR(30),
+    Repeat_Password VARCHAR(30),
+    First_Name VARCHAR (30),
+    Last_name VARCHAR(30),
+    Age INT(30),
+    Phone INT(30),
+    Address VARCHAR(30),
+    Gender VARCHAR(30)
+    );
+
+
+CREATE TABLE admin_sign_up(
+    Email VARCHAR (30),
+    Password VARCHAR(30),
+    Repeat_Password VARCHAR(30)
+    
+    );
